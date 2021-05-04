@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader.iml" filepath="$PROJECT_DIR$/.idea/modules/trader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trader.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trader.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader.trader.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader.trader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/api-paymium/trader.trader.api-paymium-core.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/api-paymium/trader.trader.api-paymium-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/api-paymium-core/trader.trader.api-paymium-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/api-paymium-core/trader.trader.api-paymium-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/api-paymium-core/trader.trader.api-paymium-core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/api-paymium-core/trader.trader.api-paymium-core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/api-paymium-kt/trader.trader.api-paymium-kt.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/api-paymium-kt/trader.trader.api-paymium-kt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/api-paymium-kt/trader.trader.api-paymium-kt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/api-paymium-kt/trader.trader.api-paymium-kt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/api-paymium-kt/trader.trader.api-paymium-kt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/api-paymium-kt/trader.trader.api-paymium-kt.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/api-paymium-rx2/trader.trader.api-paymium-rx2.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/api-paymium-rx2/trader.trader.api-paymium-rx2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/api-paymium-rx2/trader.trader.api-paymium-rx2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/api-paymium-rx2/trader.trader.api-paymium-rx2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/api-paymium-rx2/trader.trader.api-paymium-rx2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/api-paymium-rx2/trader.trader.api-paymium-rx2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-data/trader.trader.trader-data.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-data/trader.trader.trader-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-data-local/trader.trader.trader-data-local.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-data-local/trader.trader.trader-data-local.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-data-local/trader.trader.trader-data-local.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-data-local/trader.trader.trader-data-local.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-data-local/trader.trader.trader-data-local.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-data-local/trader.trader.trader-data-local.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-data-remote/trader.trader.trader-data-remote.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-data-remote/trader.trader.trader-data-remote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-data-remote/trader.trader.trader-data-remote.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-data-remote/trader.trader.trader-data-remote.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-data-remote/trader.trader.trader-data-remote.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-data-remote/trader.trader.trader-data-remote.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-data/trader.trader.trader-data.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-data/trader.trader.trader-data.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-data/trader.trader.trader-data.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-data/trader.trader.trader-data.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-domain/trader.trader.trader-domain.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-domain/trader.trader.trader-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-domain/trader.trader.trader-domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-domain/trader.trader.trader-domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/trader-domain/trader.trader.trader-domain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/trader-domain/trader.trader.trader-domain.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/util/trader.trader.util.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/util/trader.trader.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/util/trader.trader.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/util/trader.trader.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/trader/util/trader.trader.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/trader/util/trader.trader.util.test.iml" />
+    </modules>
+  </component>
+</project>

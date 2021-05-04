@@ -1,0 +1,42 @@
+plugins {
+    id 'java-library'
+    id 'org.jetbrains.kotlin.jvm'
+    id 'kotlin-kapt'
+}
+apply from: "${project.rootDir}/gradle/common.gradle"
+
+dependencies {
+    implementation project(':trader:trader-data')
+    implementation project(':trader:api-paymium-rx2')
+    implementation project(':trader:util')
+
+    /**
+     * Dagger
+     * */
+    implementation "com.google.dagger:dagger:${versions.dagger}"
+    kapt "com.google.dagger:dagger-compiler:${versions.dagger}"
+    kapt "com.google.dagger:dagger-android-processor:${versions.dagger}"
+
+    /**
+     * HTTP
+     * */
+    implementation "com.google.code.gson:gson:${versions.gson}"
+    implementation "com.squareup.okhttp3:logging-interceptor:${versions.okhttp}"
+    implementation "com.squareup.retrofit2:retrofit:${versions.retrofit}"
+    implementation "com.squareup.retrofit2:converter-gson:${versions.retrofit}"
+
+    /**
+     * Rx2
+     * */
+    implementation "io.reactivex.rxjava2:rxjava:${versions.rxjava}"
+    implementation "io.reactivex.rxjava2:rxkotlin:${versions.rxkotlin}"
+    implementation "com.squareup.retrofit2:adapter-rxjava:${versions.retrofit}"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:${versions.retrofit}"
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.4.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.4.2")
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,20 @@
+plugins {
+    id 'java-library'
+    id 'org.jetbrains.kotlin.jvm'
+    id 'kotlin-kapt'
+}
+apply from: "${project.rootDir}/gradle/common.gradle"
+
+dependencies {
+    /**
+     * Dagger
+     * */
+    implementation "com.google.dagger:dagger:${versions.dagger}"
+    kapt "com.google.dagger:dagger-compiler:${versions.dagger}"
+
+    /**
+     * Rx2
+     * */
+    implementation "io.reactivex.rxjava2:rxjava:${versions.rxjava}"
+    implementation "io.reactivex.rxjava2:rxkotlin:${versions.rxkotlin}"
+}

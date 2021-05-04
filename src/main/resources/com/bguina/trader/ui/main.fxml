@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.bguina.trader.ui.MainController"
+      maxHeight="-Infinity" maxWidth="-Infinity"
+      minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="800.0" prefWidth="600.0">
+
+    <fx:include source="exchange_market/exchange_market.fxml"/>
+
+    <fx:include source="account_assets/account_assets.fxml"/>
+
+    <fx:include source="market_strategy/market_strategy_controller.fxml"/>
+
+    <fx:include source="account_orders/account_order_list.fxml"/>
+
+</VBox>

@@ -1,0 +1,15 @@
+
+.section > Label.title {
+    -fx-font-size: 14pt;
+    -fx-padding: 5px;
+}
+
+HBox.section {
+    -fx-alignment: center;
+}
+
+Label.error {
+    -fx-font-size: 13pt;
+    -fx-padding: 5px;
+    -fx-text-fill: red;
+}

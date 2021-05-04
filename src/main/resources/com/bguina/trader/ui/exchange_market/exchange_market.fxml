@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<HBox xmlns:fx="http://javafx.com/fxml/1" styleClass="section"
+      fx:controller="com.bguina.trader.ui.exchange_market.ExchangeMarketController">
+    <padding>
+        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+    </padding>
+
+    <ImageView fx:id="image" preserveRatio="true" fitHeight="24.0" fitWidth="24.0"/>
+    <Label fx:id="title" styleClass="title" text="Current market"/>
+
+</HBox>

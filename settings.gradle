@@ -1,0 +1,10 @@
+include ':trader:trader-domain',
+        ':trader:trader-data',
+        ':trader:trader-data-local',
+        ':trader:trader-data-remote',
+        ':trader:api-paymium-core',
+        ':trader:api-paymium-kt',
+        ':trader:api-paymium-rx2',
+        ':trader:util'
+
+rootProject.name = 'trader'
